@@ -1,0 +1,86 @@
+@media only screen and (max-width: 800px){
+
+    .logo{
+        height: 40px;
+        width: 40px;
+    }
+    .wel{
+        font-size: 20px;
+    }
+    .about{
+        height: 140px;
+        width: 400px;
+    }
+    .abtus{
+        font-size: 20px;
+    }
+
+    .aboutus{
+        font-size: 10px;
+    }
+    .tricks{
+        height: 900px;
+    }
+    .trck{
+        font-size: 20px;
+    }
+    .tricktech{
+        font-size: 10px;
+    }
+    .contact{
+        height: 200px;
+        width: 400px;
+    }
+    .conus{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 20px;
+        color: white;
+    }
+    .tutorial{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        background-color: rgb(0, 0, 0);
+        color: rgb(0, 182, 0);
+        height: 20px;
+        width: 90px;
+        border: 2px solid black;
+        border-radius: 4px;
+        font-size: 10px;
+    }
+    .devloper{
+        font-size: 10px;
+    }
+    .Coming{
+        font-size: 10px;
+    }
+    .name{
+        width: 200px;
+        height: 20px;
+        border-radius: 8px;
+        border: 2px solid white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .feedback{
+        width: 200px;
+        height: 20px;
+        border-radius: 8px;
+        border: 2px solid white;
+        margin-top: 17px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .submit{
+        width: 70px;
+        height: 15x;
+        border-radius: 8px;
+        border: 2px solid white;
+        margin-top: 17px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .container{
+        width: 100%;
+    }
+}
