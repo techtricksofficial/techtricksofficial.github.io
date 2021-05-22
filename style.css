@@ -1,62 +1,138 @@
-body{
-    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 63, 63), rgb(100, 100, 100));
-    background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding:0;
 }
-.container{
-    width: 100%;
+
+html{
+    scroll-behavior: smooth;
 }
 
 .logo{
-    height: 100px;
-    width: 100px;
+    width:20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 26%;
+    border: 3px solid white;
     border-radius: 50px;
-    border: 2px solid white;
+    margin: 5px;
 }
-.wel{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 50px;
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top:0;
+    cursor: pointer;
+    
+}
+
+.nav-list{
+    width: 70%; 
+    display: flex; 
+    align-items: center;
+}
+
+.nav-list li{
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a{
+    text-decoration: none;
     color: white;
-}
-.about{
-    height: 400px;
-    width: 800px;
-}
-.abtus{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: white;
-}
-.aboutus{
-    text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-list li a:hover{ 
+    color: rgb(197, 194, 194);
+}
+
+.rightNav{ 
+    width: 30%;
+    text-align: right;
+    padding: 0 23px;
+}
+
+
+.background{
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 63, 63), rgb(100, 100, 100));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+.firstSection{
+    height: 100vh;
+}
+
+.box-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+    max-width: 50%;
+    margin: auto;
+    height: 80%;
 }
-.tricks{
-    border-radius: 7px;
-    height: 1150px;
-    width: 100%;
-    background-color: white;
+
+.firstHalf{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.trck{
-    text-align: center;
+
+.secondHalf{
+    width: 30%;
+}
+
+.secondHalf img{
+    width: 70%; 
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
+}
+
+.text-big{
+    font-size: 41px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
+
 }
-.tricktech{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+.text-small{
+    font-size: 18px;
 }
-.contact{
-    height: 400px;
-    width: 800px;
+.section{ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 80%;
+    margin: auto;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
 }
-.conus{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 30px;
-    color: white;
+
+.section-left{
+    flex-direction: row-reverse;
+}
+
+.paras{
+    padding: 0px 65px;
+}
+
+.sectionTag{
+    padding: 16px 0;
+}
+
+.sectionSubTag{
+    font-family: 'Ubuntu' sans-serif;
 }
 
 .tutorial{
@@ -69,27 +145,11 @@ body{
     border: 2px solid black;
     border-radius: 4px;
 }
-
-.devloper{
-    color: white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.Coming{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.name{
+input{
     width: 400px;
     height: 40px;
     border-radius: 8px;
-    border: 2px solid white;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.feedback{
-    width: 400px;
-    height: 40px;
-    border-radius: 8px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin-top: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -97,7 +157,31 @@ body{
     width: 100px;
     height: 30px;
     border-radius: 8px;
-    border: 2px solid white;
+    border: 2px solid black;
     margin-top: 17px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.text-footer{
+    text-align: center;
+    padding: 30px 0;
+   font-family: 'Ubuntu', sans-serif; 
+   display: flex;
+   justify-content: center;
+   color: white;
+   
+}
+
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top:15px;
+}
+.line{
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
 }
