@@ -1,18 +1,18 @@
 <?php
 
-	if (empty($_POST['submit'])) {
+	if (empty($_GET['submit'])) {
 		echo "Form is not submitted";
 		exit;
 	}
 
-	if (empty($_POST["fullname"]) || empty($_POST["feedback"]) || empty($_POST["email"])) {
+	if (empty($_GET["fullname"]) || empty($_GET["feedback"]) || empty($_GET["email"])) {
 		echo "Please fill the form";
 		exit;
 	}
 
-	$name = $_POST["fullname"];
-	$email = $_POST["email"]
-	$feedback = $_POST["feedback"];
+	$name = $_GET["fullname"];
+	$email = $_GET["email"]
+	$feedback = $_GET["feedback"];
 
 	mail('mpyt7410@gmail.com', 'New form submission', 'Name : $name, Email : $email, Feedback : $feedback');
 	
