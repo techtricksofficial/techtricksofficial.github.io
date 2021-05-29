@@ -1,0 +1,23 @@
+.q{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+.step{   
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.ansimg{
+    width: 700px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 9px;
+}
+code{
+    font-family: Consolas, "courier new";
+    color: crimson;
+    background-color: #f1f1f1;
+    padding: 2px;
+    font-size: 105%;
+}
