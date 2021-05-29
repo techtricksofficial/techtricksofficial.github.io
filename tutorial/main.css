@@ -9,7 +9,7 @@
     font-size: 20px;
 }
 .ansimg{
-    width: 100%;
+    max-width: 50%;
     height: 500px;
     border: 2px solid black;
     border-radius: 9px;
